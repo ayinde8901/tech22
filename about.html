@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Form html</h1>
+    <form action="html form" style="align-items: center; height: 450px; width: 400px; border: 4px solid black; border-radius: 5px; padding: 50px; margin-left: 450px;" >
+        <label for="username">enter your info</label>
+        <input type="text" name="username" id="username" required>
+        <br><br><br>
+        <label for="password">enter your password</label>
+        <input type="text" name="password" id="password">
+        <br><br>
+        <p>click your gender</p>
+        <label for="">female</label>
+        <input type="radio" name="gender" id="gender-age" value="age">
+        <label for="">male</label>
+        <input type="radio" name="gender" id="gender-age" value="age">
+        <label for="other option">other</label>
+        <input type="radio" name="gender" id="gender-age" value="age">
+        <br><br>
+        <p>select your  age </p>
+        <label for="">0-30</label>
+        <input type="radio" name="age" id="ageinfo" value="0-30">
+        <label for="">30-60</label>
+        <input type="radio" name="age" id="ageinfo" value="30-60">
+        <label for="">60-100</label>
+        <input type="radio" name="age" id="ageinfo" value="60-100">
+        <br><br>
+        <label for="">school attended</label>
+         <select name="option" id="pick" style="width: 210px; height: 40px; padding: 10px;">
+            <option value="option1">kings college</option>
+            <option value="option2">legacy</option>
+            <option value="option3">kwara poly</option>
+            <option value="option4">city college</option>
+         </select>
+         <br><br>
+         <label for="answer"> security answer</label>
+         <input type="text" name="answer" id="anwer">
+         <br><br>
+         <label for="biography">write your biography:</label>
+        <textarea name="bio" cols="20" id="bio"></textarea>
+        <br><br>
+        
+        <input type="submit" value="submit the form">
+        <br>
+        <label for="color">pick color</label>
+        <input type="color">
+    </form>
+
+    <table border="2px" class="human">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>school</th>
+                <th>matric No</th>
+                <th>department</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>owolabi</td>
+                <td>kwara poly</td>
+                <td>447</td>
+                <td>public administration</td>
+            </tr>
+            <tr>
+                <td>owolabi</td>
+                <td>kwara poly</td>
+                <td>447</td>
+                <td>public administration</td>
+            </tr>
+            <tr>
+                <td>owolabi</td>
+                <td>kwara poly</td>
+                <td>447</td>
+                <td>public administration</td>
+            </tr>
+            <tr>
+                <td>owolabi</td>
+                <td>kwara poly</td>
+                <td>447</td>
+                <td>public administration</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<style>
+    .human th{
+        background-color: blue;
+        padding: 10px;
+    }
+    table td:nth-child(even){
+        background-color: aqua;
+    }
+    table tr:nth-child(odd):hover{
+        background-color: brown;
+    }
+</style>
+</html>
